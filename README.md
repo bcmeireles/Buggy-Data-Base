@@ -2,7 +2,7 @@
 # Buggy Data Base
 Mid term project for Programming Foundations
 ## Introduction
-This project consists on creating functions that allow the completion of five independent tasks, to identify and correct the problems with a database (Buggy Data Base, BDB)
+This project consists on creating functions that allow the completion of five independent tasks, to identify and correct the problems with a database (Buggy Data Base, BDB) that got corrupted for unknown reasons.
 
 BDB contains authentication information of the users of a system and is wrongfully denying access to some of the registered users.
 
@@ -59,8 +59,11 @@ LyYlMmwmMrRrongTtoOkyYcCK daRfFKkLlhHrtZKqQkkvVKza"
 
 ## PIN Discovery
 ### Problem Description
+For this, we get a PIN codified as a tuple of strings with movements. In order to get the PIN, we should press a number and find the next number through the moves sequence provided. "U" moves up, "D" moves down, "L" moves left and "R" moves right. Each line of instructions corresponds to a number, starting at the previous number (or 5, if it's the first line). The button to press is the one at the end of each line. If a move doesn't end up in a button, then it is ignored.
 ### Work to do
-#### func
+#### get_digit
+#### get_position
+#### get_pin
 ### Examples
 
 ## Data Verification
