@@ -69,20 +69,23 @@ For this, we get a PIN codified as a tuple of strings with movements. In order t
 ## Data Verification
 ### Problem Description
 ### Work to do
-#### func1
-#### func2
+#### is_entry
+#### validate_cipher
+#### filter_bdb
 ### Examples
 
 ## Data Decryption
 ### Problem Description
 ### Work to do
-#### func1
-#### func2
+#### grab_security_number
+#### decipher_text
+#### decipher_bdb
 ### Examples
 
 ## Password Depuration
 ### Problem Description
 ### Work to do
-#### func1
-#### func2
+#### is_user
+#### is_valid_password
+#### filter_passwords
 ### Examples
